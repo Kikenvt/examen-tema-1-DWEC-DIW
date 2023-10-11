@@ -1,4 +1,4 @@
-/**@Autor: Enrique Fernández-Campoamor Fenández
+/**@Autor: Enrique Fernández-Campoamor Fernández
  * @Github:
  */
 
@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
     //Creamos una condición para verificar que son números y nos Strings
 
     if (!isNaN(length) && !isNaN(width)) {
-      // Hacemos los calculos de area, perimetro y diagonal
+      // Hacemos los calculos de area, perimetro y diagonal y les agregamos el redondeo a dos decimales
       const area = (length * width).toFixed(2)
 
       const perimeter = (2 * length + 2 * width).toFixed(2)
 
-      const diagonal = (Math.pow(Math.pow(length, 2) + Math.pow(width, 2), 0.5)).toFixed(2)
+      const diagonal = Math.pow(Math.pow(length, 2) + Math.pow(width, 2), 0.5).toFixed(2)
 
       // Mostramos el resultado en el documento HTML
 

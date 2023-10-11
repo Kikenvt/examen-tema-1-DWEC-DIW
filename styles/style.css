@@ -18,10 +18,12 @@ input {
 button {
   margin: 5px;
   padding: 15px;
+  font-weight: bold;
   border: none;
   background-color: #0a03dc;
   color: white;
   cursor: pointer;
+  
 }
 
 button:hover {
