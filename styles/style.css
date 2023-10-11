@@ -1,0 +1,29 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  background-color: #0a03dc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #514cdd;
+}
