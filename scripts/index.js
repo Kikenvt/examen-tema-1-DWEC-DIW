@@ -1,5 +1,5 @@
 /**@Autor: Enrique Fernández-Campoamor Fernández
- * @Github:
+ * @Github: https://github.com/Kikenvt/examen-tema-1-DWEC-DIW
  */
 
 // Añadimos el listener del evento "DOMContentLoaded" para esperar a que todo el DOM de la página esté cargado
