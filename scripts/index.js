@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const diagonal = Math.pow(Math.pow(length, 2) + Math.pow(width, 2), 0.5).toFixed(2)
 
       // Mostramos el resultado en el documento HTML
-      result.innerHTML = `<p>Área del rectangulo: ${area}</p>
+      result.innerHTML = `<p>Área del rectángulo: ${area}</p>
             <p>Perimetro del rectángulo: ${perimeter}</p>
             <p>Diagonal del rectángulo: ${diagonal}</p>`
     } else {
       // En el caso de que los inputs no sean corectos mostramos el siguiente resultado en el HTML
-      result.innerHTML = `Por favor ingrese valores correctos`
+      result.innerHTML = `<p>Por favor ingrese valores correctos</p>`
     }
   })
 })
